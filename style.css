@@ -1,0 +1,184 @@
+body{
+	background: #ffffe6;
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin:0;
+}
+
+/* Global */
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background:#ff8c00;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #dcdcdc 10px solid;
+	position: sticky;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float:left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+
+}
+
+/* showcase */
+#showcase .container{
+	background:#87CEEB;
+	color: #FFFFFF;
+	padding: 0 70px 0 70px;
+	margin: 20px 70px 40px 80px;
+	border-bottom: #dcdcdc 10px solid;
+}
+
+.container img{
+	float: right;
+	padding: 30px;
+}
+
+.container #highlight{
+	float: left;
+	width: 40%;
+	padding: 20px;
+}
+
+.container #highlight{
+	font-size: 25px;
+}
+#highlight h6 a{
+	color: #ffffff;
+}
+#boxes{
+	background: #dcdcdc;
+}
+
+#boxes .title{
+	background: #ffffff;
+	float: left;
+	width: 15%;
+	padding: 25px;
+	margin: 20px;
+	text-align: center;
+	
+}
+
+
+
+#boxes .title img{
+	width: 90px;
+	height: 80px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.title .button_2{
+	background: #87CEEB;
+	color: #ffffff;
+
+}
+
+.title h4{
+	color: #87CEEB;
+}
+
+footer{
+	background: #ff8c00;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	margin: 20px 0 0 0;
+}
+/*
+#boxes .title img{
+	padding-right: 60px;
+	padding-top: 0;
+	float: center;
+}
+
+/*
+header{
+	background:orange;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+header li{
+	float:left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header li{
+	float: right;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+/*
+
+<header>
+		<div class="container">
+			<div id="branding">
+				<h1>YOUR LOGO</h1>
+			</div>
+		</div>
+		<nav>
+				<ul>
+					<li><a href="index.html">GALLERY</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="submit.html">SUBMIT</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+				</ul>
+		</nav>
+	</header>
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+
+header li{
+	float: left;
+} 
